@@ -2,7 +2,7 @@ print ("起動したときのメッセージ")
 import discord
 
 TOKEN = "BOTTOKEN" #トークンを入力
-global_channel_name = "yuki-global" #設定したいチャンネル名を入力
+global_channel_name = "CHANNELNAME" #設定したいチャンネル名を入力
 
 client = discord.Client() #接続に必要なオブジェクトを生成
 
